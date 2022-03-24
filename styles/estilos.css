@@ -161,3 +161,15 @@ footer {
   border-color: #cccccc;
   transform: scale(0.9);
 }
+@media only screen and (max-width: 576px) {
+  .encabezado-home {
+    background: url(../img/encabezados/Game_Of_Thrones.jpeg) center;
+  }
+  .encabezado-casas {
+    background: url(../img/encabezados/caras.jpg) center;
+  }
+
+  .encabezado-contenido {
+    background: url(../img/encabezados/cq5dam.web.1200.675.jpg) center;
+  }
+}
