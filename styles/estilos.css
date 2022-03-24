@@ -172,4 +172,9 @@ footer {
   .encabezado-contenido {
     background: url(../img/encabezados/cq5dam.web.1200.675.jpg) center;
   }
+  .encabezado-hotd {
+    width: 100%;
+    height: 30vh;
+    background: url(../img/15d6864217df3708f3eae49283d7a8d7.gif) center;
+  }
 }
