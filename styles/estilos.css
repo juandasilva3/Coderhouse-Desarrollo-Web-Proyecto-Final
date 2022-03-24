@@ -135,3 +135,29 @@ footer {
 .bi-instagram:hover {
   color: #8a3ab9;
 }
+/* Le cambio el color de fondo a la card de boostrap*/
+.card {
+  background-color: rgb(142, 146, 141);
+}
+
+/* Variable, le genero un color al boton para sustituir el de boostrap*/
+:root {
+  --gray-light: #cccccc;
+  --gray: #747474;
+}
+.bg-gray {
+  background-color: var(--gray-light);
+}
+
+.btn-gray {
+  color: #fff;
+  background-color: var(--gray);
+  border-color: var(--gray);
+}
+
+.btn-gray:hover {
+  color: #fff;
+  background-color: #cccccc;
+  border-color: #cccccc;
+  transform: scale(0.9);
+}
