@@ -1,0 +1,37 @@
+p {
+  font-family: "Rubik", sans-serif;
+}
+h3,
+h4,
+li {
+  font-family: "Inknut Antiqua", serif;
+}
+nav {
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+  font-family: "Inknut Antiqua", serif;
+}
+nav ul a:hover {
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
+body {
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #274046, #e6dada);
+}
