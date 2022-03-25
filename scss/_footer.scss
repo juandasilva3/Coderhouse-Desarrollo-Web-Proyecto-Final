@@ -20,10 +20,9 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   color: #fff;
-}
-
-.bi-facebook:hover {
-  color: #3b5998;
+  &:hover {
+    color: #3b5998;
+  }
 }
 
 .bi-twitter {
@@ -31,10 +30,10 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   color: #fff;
-}
 
-.bi-twitter:hover {
-  color: #1da1f2;
+  &:hover {
+    color: #1da1f2;
+  }
 }
 
 .bi-instagram {
@@ -42,8 +41,8 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   color: #fff;
-}
 
-.bi-instagram:hover {
-  color: #8a3ab9;
+  &:hover {
+    color: #8a3ab9;
+  }
 }
