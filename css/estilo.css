@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.encabezado-home {
+  width: 100%;
+  height: 30vh;
+  background: url(../img/encabezados/header.jpeg) center fixed; }
+
+.encabezado-casas {
+  width: 100%;
+  height: 30vh;
+  background: url(../img/encabezados/casas.jpeg) center fixed; }
+
+.encabezado-contenido {
+  width: 100%;
+  height: 30vh;
+  background: url(../img/encabezados/minimalista.jpg) center; }
+
+.encabezado-hotd {
+  width: 100%;
+  height: 30vh;
+  background: url(../img/hotd.jpeg) center; }
+
+p {
+  font-family: "Rubik", sans-serif; }
+
+h3,
+h4,
+li {
+  font-family: "Inknut Antiqua", serif; }
+
+nav {
+  padding: 1rem; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly; }
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+  font-family: "Inknut Antiqua", serif; }
+
+nav ul a:hover {
+  background-color: grey;
+  color: black;
+  font-weight: bold; }
+
+body {
+  background: #e6dada;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #274046, #e6dada);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #274046, #e6dada); }
+
+h3,
+h4 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: 1; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media only screen and (max-width: 576px) {
+  .encabezado-home {
+    background: url(../img/encabezados/Game_Of_Thrones.jpeg) center; }
+  .encabezado-casas {
+    background: url(../img/encabezados/caras.jpg) center; }
+  .encabezado-contenido {
+    background: url(../img/encabezados/cq5dam.web.1200.675.jpg) center; }
+  .encabezado-hotd {
+    width: 100%;
+    height: 30vh;
+    background: url(../img/15d6864217df3708f3eae49283d7a8d7.gif) center; } }
+
+/* Le cambio el color de fondo a la card de boostrap*/
+.card {
+  background-color: #8e928d; }
+
+/* Variable, le genero un color al boton para sustituir el de boostrap*/
+:root {
+  --gray-light: #cccccc;
+  --gray: #747474; }
+
+.bg-gray {
+  background-color: var(--gray-light); }
+
+.btn-gray {
+  color: #fff;
+  background-color: var(--gray);
+  border-color: var(--gray); }
+
+.btn-gray:hover {
+  color: #fff;
+  background-color: #cccccc;
+  border-color: #cccccc;
+  transform: scale(0.9); }
+
+footer {
+  width: 100%;
+  background: black;
+  height: 50px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center; }
+
+.anchoFooter {
+  margin-top: 10px; }
+
+.redes {
+  display: inline-block; }
+
+.bi-facebook {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff; }
+
+.bi-facebook:hover {
+  color: #3b5998; }
+
+.bi-twitter {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff; }
+
+.bi-twitter:hover {
+  color: #1da1f2; }
+
+.bi-instagram {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff; }
+
+.bi-instagram:hover {
+  color: #8a3ab9; }
