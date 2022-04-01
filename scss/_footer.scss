@@ -14,34 +14,28 @@ footer {
 .redes {
   display: inline-block;
 }
-
-.bi-facebook {
+.bi-footer {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
   color: #fff;
+}
+
+.bi-facebook {
+  @extend .bi-footer;
   &:hover {
     color: #3b5998;
   }
 }
-
 .bi-twitter {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff;
-
+  @extend .bi-footer;
   &:hover {
     color: #1da1f2;
   }
 }
 
 .bi-instagram {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff;
-
+  @extend .bi-footer;
   &:hover {
     color: #8a3ab9;
   }

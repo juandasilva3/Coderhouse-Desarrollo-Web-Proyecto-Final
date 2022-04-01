@@ -1,139 +1,189 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 .encabezado-home {
   width: 100%;
   height: 30vh;
-  background: url(../img/encabezados/header.jpeg) center fixed; }
+  background: url(../img/encabezados/header.jpeg) center fixed;
+}
 
 .encabezado-casas {
   width: 100%;
   height: 30vh;
-  background: url(../img/encabezados/casas.jpeg) center fixed; }
+  background: url(../img/encabezados/casas.jpeg) center fixed;
+}
 
 .encabezado-contenido {
   width: 100%;
   height: 30vh;
-  background: url(../img/encabezados/minimalista.jpg) center; }
+  background: url(../img/encabezados/minimalista.jpg) center;
+}
 
 .encabezado-hotd {
   width: 100%;
   height: 30vh;
-  background: url(../img/hotd.jpeg) center; }
+  background: url(../img/hotd.jpeg) center;
+}
 
 p {
-  font-family: "Rubik", sans-serif; }
+  font-family: "Rubik", sans-serif;
+}
 
 h3,
 h4,
 li {
-  font-family: "Inknut Antiqua", serif; }
+  font-family: "Inknut Antiqua", serif;
+}
 
 nav {
-  padding: 1rem; }
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly; }
-    nav ul a {
-      color: black;
-      text-decoration: none;
-      padding: 0.7rem;
-      display: block;
-      font-family: "Inknut Antiqua", serif; }
-      nav ul a:hover {
-        background-color: grey;
-        color: black;
-        font-weight: bold; }
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block;
+  font-family: "Inknut Antiqua", serif;
+}
+
+nav ul a:hover {
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
 
 body {
   background: #e6dada;
-  background: -webkit-linear-gradient(to right, #274046, #e6dada);
-  background: linear-gradient(to right, #274046, #e6dada); }
+  background: -webkit-gradient(linear, left top, right top, from(#274046), to(#e6dada));
+  background: linear-gradient(to right, #274046, #e6dada);
+}
 
 h3,
 h4 {
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-iteration-count: 1; }
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes aparecer {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 @media only screen and (max-width: 576px) {
   .encabezado-home {
-    background: url(../img/encabezados/Game_Of_Thrones.jpeg) center; }
+    background: url(../img/encabezados/Game_Of_Thrones.jpeg) center;
+  }
   .encabezado-casas {
-    background: url(../img/encabezados/caras.jpg) center; }
+    background: url(../img/encabezados/caras.jpg) center;
+  }
   .encabezado-contenido {
-    background: url(../img/encabezados/cq5dam.web.1200.675.jpg) center; }
+    background: url(../img/encabezados/cq5dam.web.1200.675.jpg) center;
+  }
   .encabezado-hotd {
     width: 100%;
     height: 30vh;
-    background: url(../img/15d6864217df3708f3eae49283d7a8d7.gif) center; } }
+    background: url(../img/15d6864217df3708f3eae49283d7a8d7.gif) center;
+  }
+}
 
 /* Le cambio el color de fondo a la card de boostrap*/
 .card {
-  background-color: #8e928d; }
+  background-color: #8e928d;
+}
 
 /* Variable, le genero un color al boton para sustituir el de boostrap*/
 :root {
   --gray-light: #cccccc;
-  --gray: #747474; }
+  --gray: #747474;
+}
 
 .bg-gray {
-  background-color: var(--gray-light); }
+  background-color: var(--gray-light);
+}
 
 .btn-gray {
   color: #fff;
   background-color: var(--gray);
-  border-color: var(--gray); }
+  border-color: var(--gray);
+}
 
 .btn-gray:hover {
   color: #fff;
   background-color: #cccccc;
   border-color: #cccccc;
-  transform: scale(0.9); }
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
 
 footer {
   width: 100%;
   background: black;
   height: 50px;
   margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 .anchoFooter {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 .redes {
-  display: inline-block; }
+  display: inline-block;
+}
 
-.bi-facebook {
+.bi-footer, .bi-facebook, .bi-twitter, .bi-instagram {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: #fff; }
-  .bi-facebook:hover {
-    color: #3b5998; }
+  color: #fff;
+}
 
-.bi-twitter {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff; }
-  .bi-twitter:hover {
-    color: #1da1f2; }
+.bi-facebook:hover {
+  color: #3b5998;
+}
 
-.bi-instagram {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff; }
-  .bi-instagram:hover {
-    color: #8a3ab9; }
+.bi-twitter:hover {
+  color: #1da1f2;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
+/*# sourceMappingURL=estilo.css.map */
