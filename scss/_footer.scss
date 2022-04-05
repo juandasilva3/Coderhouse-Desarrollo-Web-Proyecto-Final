@@ -1,10 +1,14 @@
-footer {
+@mixin footer-estilo {
   width: 100%;
   background: black;
   height: 50px;
   margin-top: 0px;
   display: flex;
   justify-content: center;
+}
+
+.pieDePagina {
+  @include footer-estilo
 }
 
 .anchoFooter {
@@ -14,36 +18,29 @@ footer {
 .redes {
   display: inline-block;
 }
+.bi-footer {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
 
 .bi-facebook {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff;
+  @extend .bi-footer;
+  &:hover {
+    color: #3b5998;
+  }
 }
-
-.bi-facebook:hover {
-  color: #3b5998;
-}
-
 .bi-twitter {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff;
-}
-
-.bi-twitter:hover {
-  color: #1da1f2;
+  @extend .bi-footer;
+  &:hover {
+    color: #1da1f2;
+  }
 }
 
 .bi-instagram {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff;
-}
-
-.bi-instagram:hover {
-  color: #8a3ab9;
+  @extend .bi-footer;
+  &:hover {
+    color: #8a3ab9;
+  }
 }
