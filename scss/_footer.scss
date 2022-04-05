@@ -1,10 +1,14 @@
-footer {
+@mixin footer-estilo {
   width: 100%;
   background: black;
   height: 50px;
   margin-top: 0px;
   display: flex;
   justify-content: center;
+}
+
+.pieDePagina {
+  @include footer-estilo
 }
 
 .anchoFooter {

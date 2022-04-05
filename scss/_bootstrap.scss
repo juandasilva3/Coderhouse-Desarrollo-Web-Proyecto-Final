@@ -16,11 +16,12 @@
   color: #fff;
   background-color: var(--gray);
   border-color: var(--gray);
+  
+    &:hover {
+    color: #fff;
+    background-color: #cccccc;
+    border-color: #cccccc;
+    transform: scale(0.9);
+}
 }
 
-.btn-gray:hover {
-  color: #fff;
-  background-color: #cccccc;
-  border-color: #cccccc;
-  transform: scale(0.9);
-}

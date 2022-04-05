@@ -103,6 +103,7 @@ h4 {
 @media only screen and (max-width: 576px) {
   .encabezado-home {
     background: url(../img/logoAnimado.gif) center;
+    background-size: 100%;
   }
   .encabezado-casas {
     background: url(../img/encabezados/caras.jpg) center;
@@ -146,7 +147,7 @@ h4 {
           transform: scale(0.9);
 }
 
-footer {
+.pieDePagina {
   width: 100%;
   background: black;
   height: 50px;
