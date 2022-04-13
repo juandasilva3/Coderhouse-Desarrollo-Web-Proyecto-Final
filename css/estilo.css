@@ -19,8 +19,8 @@
 
 .encabezado-contenido {
   width: 100%;
-  height: 30vh;
-  background: url(../img/encabezados/minimalista.jpg) center;
+  height: 50vh;
+  background: url(../img/encabezados/encabezado_animado.gif) fixed;
 }
 
 .encabezado-hotd {
@@ -29,12 +29,11 @@
   background: url(../img/HouseOfTheDragon.jpeg) center;
 }
 
-/* juegos obras cancion */
-p {
+p, li {
   font-family: "Rubik", sans-serif;
 }
 
-h1, h3, h4, li {
+h1, h3, h4 {
   font-family: "Inknut Antiqua", serif;
 }
 
@@ -70,6 +69,10 @@ body {
   background: #e6dada;
   background: -webkit-gradient(linear, left top, right top, from(#274046), to(#e6dada));
   background: linear-gradient(to right, #274046, #e6dada);
+}
+
+.cancion {
+  padding-top: 50px;
 }
 
 h3,

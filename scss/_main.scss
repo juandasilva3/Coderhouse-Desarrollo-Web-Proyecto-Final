@@ -1,9 +1,8 @@
-/* juegos obras cancion */
 
-p {
+p, li {
   font-family: "Rubik", sans-serif;
 }
-h1, h3, h4, li {
+h1, h3, h4 {
   font-family: "Inknut Antiqua", serif;
 }
 nav {
@@ -33,4 +32,8 @@ body {
   background: #e6dada;
   background: -webkit-linear-gradient(to right, #274046, #e6dada);
   background: linear-gradient(to right, #274046, #e6dada);
+}
+
+.cancion {
+  padding-top: 50px;
 }
