@@ -12,3 +12,9 @@ h4 {
     opacity: 1;
   }
 }
+/* Esta animación solo aplica para la hoja de casas, es especifica para los logos nada mas.*/
+ .animado-casas img:hover {
+opacity: 1;
+border: solid transparent;
+filter: drop-shadow(16px 16px 10px black)
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -66,9 +67,9 @@ nav ul a:hover {
 }
 
 body {
-  background: #e6dada;
-  background: -webkit-gradient(linear, left top, right top, from(#274046), to(#e6dada));
-  background: linear-gradient(to right, #274046, #e6dada);
+  background: #465f65;
+  background: -webkit-gradient(linear, left bottom, left top, from(#465f65), to(#e6dada));
+  background: linear-gradient(0deg, #465f65 0%, #e6dada 100%);
 }
 
 .cancion {
@@ -103,6 +104,14 @@ h4 {
   }
 }
 
+/* Esta animación solo aplica para la hoja de casas, es especifica para los logos nada mas.*/
+.animado-casas img:hover {
+  opacity: 1;
+  border: solid transparent;
+  -webkit-filter: drop-shadow(16px 16px 10px black);
+          filter: drop-shadow(16px 16px 10px black);
+}
+
 @media only screen and (max-width: 576px) {
   .encabezado-home {
     background: url(../img/logoAnimado.gif) center;
@@ -112,7 +121,7 @@ h4 {
     background: url(../img/encabezados/caras.jpg) center;
   }
   .encabezado-contenido {
-    background: url(../img/encabezados/cq5dam.web.1200.675.jpg) center;
+    background: url(../img/encabezados/ojo_celeste.jpg) center;
   }
   .encabezado-hotd {
     width: 100%;
